@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7e9ea;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ec5cb5;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+button {
+  background-color: #ec4c4c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+.imagen {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.imagen img {
+  max-width: 100%;
+}

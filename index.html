@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Te amo mi amor</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="mensaje">
+    <h1>Te amo mi amor</h1>
+    <button class="sorpresa-1">Sorpresa 1</button>
+    <button class="sorpresa-2">Sorpresa 2</button>
+    <button class="sorpresa-3">Sorpresa 3</button>
+  </div>
+  
+  <script>
+    const boton1 = document.querySelector('.sorpresa-1');
+    const boton2 = document.querySelector('.sorpresa-2');
+    const boton3 = document.querySelector('.sorpresa-3');
+
+    boton1.addEventListener('click', function() {
+      window.open('sorpresa1.html', '_blank');
+    });
+
+    boton2.addEventListener('click', function() {
+      window.open('sorpresa2.html', '_blank');
+    });
+
+    boton3.addEventListener('click', function() {
+      window.open('sorpresa3.html', '_blank');
+    });
+  </script>
+</body>
+</html>
